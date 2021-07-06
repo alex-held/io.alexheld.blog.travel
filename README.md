@@ -1,25 +1,25 @@
 <h1 align="center">
-  Amelie - Blog Template 
+  Travel Blog | Alex Held 
 </h1>
 
 ## 👁 Demo
 
-https://amelie-blog.netlify.com/
+https://travel.blog.alexheld.io
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2a52f639-94f2-4399-990f-1c154b856b22/deploy-status)](https://app.netlify.com/sites/amelie-blog/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d890c6f9-8090-4d52-8571-5765c42e2494/deploy-status)](https://app.netlify.com/sites/elastic-sinoussi-b4ed18/deploys)
+
 
 ## 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI  
    `npm install -g gatsby-cli`
 
-2. Clone Amelie repository  
-   `https://github.com/tobyau/Amelie.git`
+2. Clone this repository  
 
 3. Navigate into the site directory and install dependencies
 
 ```
-cd Amelie
+cd io.alexheld.blog.travel
 npm install
 ```
 
