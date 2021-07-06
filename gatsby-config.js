@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Amelie`,
-    description: `A minimal and mobile friendly blog template`,
+    title: `Travel Blog | Alexander Held`,
+    description: `My personal travel adventure blog`,
     author: `@gatsbyjs`,
   },
   plugins: [
