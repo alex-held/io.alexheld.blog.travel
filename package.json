@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "travel.blog.alexheld.io",
   "private": true,
-  "description": "A simple starter blog template built with Gatsby",
+  "description": "The source code of my travel-blog, built with Gatsby",
   "version": "0.1.0",
-  "author": "Toby Au, Jessica Adjei",
+  "author": "Alexander Held",
   "dependencies": {
     "gatsby": "^2.16.1",
     "gatsby-image": "^2.2.29",
@@ -39,9 +39,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/alex-held/io.alexheld.blog.travel2"
   }
 }
