@@ -1,13 +1,21 @@
-import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import React from "react"
 import Nav from "../components/Nav"
-
+import SEO from "../components/Seo"
 export default ({ data }) => {
   const post = data.markdownRemark
+  const image = post.frontmatter.image
+    ? post.frontmatter.image.childImageSharp.resize
+    : null
 
   return (
     <div>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+        image={image}
+      />
       <Nav post={true} />
       <div className="post-page-container">
         <div className="post-page-flex-container">
@@ -43,6 +51,11 @@ export const query = graphql`
           childImageSharp {
             sizes(maxWidth: 630) {
               ...GatsbyImageSharpSizes
+            }
+            resize(width: 1200) {
+              src
+              height
+              width
             }
           }
         }

@@ -3,15 +3,9 @@ module.exports = {
     title: `Travel Blog | Alexander Held`,
     description: `My personal travel adventure blog`,
     author: `@gatsbyjs`,
+    siteUrl: "https://travel.blog.alexheld.io",
   },
   plugins: [
-    {
-      resolve: "gatsby-plugin-social-cards",
-      options: {
-        defaultAuthor: "Alexander Held",
-        design: "default", // 'default' or 'card'
-      },
-    },
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
